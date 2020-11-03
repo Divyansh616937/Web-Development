@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./bg.jpg) fixed center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 11% 35%;
+}
+.box{
+    margin-top: 1rem;
+    color: white;
+    border-bottom: 2px solid #532553;
+}
+.box input{
+    outline: none;
+    border: none;
+    font-size: large;
+    background: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1rem;
+}
+#btn{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Henny Penny', cursive;
+    border-radius: 16px;
+    outline: none;
+    background: none;
+}
+h1{
+    font-family: 'Grenze Gotisch', cursive;
+    border-bottom: 2px solid purple;
+    color: white;
+}
+.box i{
+    margin-right: 10px;
+}
+
+@media only screen and (min-width:300px) and (max-width:480px) {
+    .container{
+        margin: 39% 15%;
+        height: 39%;
+        width: 76%;
+    }
+}
+@media (min-width:500px) and  (max-width:768px) {
+    .container{
+        margin: 36% 29%;
+        height: 39%;
+        width: 42%;
+        font-size: medium;
+    }
+}
+
+@media  (min-width:800px) and (max-width:1025px) {
+    .container{
+        margin: 39% 23%;
+        height: 39%;
+        width: 55%;
+    }
+    .box{
+        font-size: xx-large;
+        margin-top: 5rem;
+        color: white;
+        border-bottom: 2px solid #532553
+    }
+    .box input{
+        outline: none;
+        border: none;
+        font-size: xx-large;
+        background: none;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 1rem;
+    }
+    h1{
+        font-size: 60px;
+        font-family: 'Grenze Gotisch', cursive;
+        border-bottom: 2px solid purple;
+        color: white;
+    }
+    #btn{
+        font-size: xxx-large;
+        height: 13%;
+        margin-top: 60px;
+        cursor: pointer;
+        width: 45%;
+        text-align: center;
+        padding: 5px;
+        font-family: 'Henny Penny', cursive;
+        border-radius: 16px;
+        outline: none;
+        background: none;
+        margin-left: 27%;
+    }
+}
+
+@media (max-width:280px) {
+    .container{
+        height: 33%;
+        width: 87%;
+        margin: 37% 9%;
+    }
+}

@@ -1,0 +1,11 @@
+tags
+
+br # break line #new line
+hr # horizontal road
+p # paragraph
+h # headline
+em # emet 
+. is for class
+# is for id
+img for image
+a for anchor

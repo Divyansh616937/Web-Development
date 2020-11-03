@@ -1,0 +1,262 @@
+@keyframes span-1{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: cornflowerblue;        
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: turquoise;
+    }
+}
+
+@keyframes span-2{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@keyframes span-3{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: aquamarine;
+    }
+}
+
+@keyframes span-4{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-5{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: brown;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: burlywood;
+    }
+}
+
+@keyframes span-6{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-7{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+    }
+}
+@keyframes span-8{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-9{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color:#e90505;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: yellow;
+    }
+}
+@keyframes span-10{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-11{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: #647ce7;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: #020f49;
+    }
+}
+@keyframes span-12{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-13{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: #7bf3e7;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: #01463f;
+    }
+}
+@keyframes span-14{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-15{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: #f77171;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color:#750707;
+    }
+}
+
+@keyframes span-16{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@keyframes span-17{
+    from{
+        font-size: 7em;
+        font-family: 'Courier New', Courier, monospace;
+        color: #0efd76;
+    }
+    to{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        color: #083a1d;
+    }
+}
+#span-1{
+    animation: span-1 3s ease-in-out 1s 1 none;
+    
+}
+#span-2{
+    animation: span-2 2s ease-in-out 1s 1 none;
+    
+}
+#span-3{
+    animation: span-3 2s ease-in-out 1s 1 none;
+    
+}
+#span-4{
+    animation: span-4 2s ease-in-out 1s 1 none;
+    
+}
+#span-5{
+    
+    animation: span-5 2s ease-in-out 1s 1 none;
+}
+#span-6{
+    
+    animation: span-6 2s ease-in-out 1s 1 none;
+}
+#span-7{
+    animation: span-7 2s ease-in-out 1s 1 none;
+    
+}
+#span-8{
+    animation: span-8 2s ease-in-out 1s 1 none;
+    
+}
+#span-9{
+    animation: span-9 2s ease-in-out 1s 1 none;
+    
+}
+#span-10{
+    animation: span-10 2s ease-in-out 1s 1 none;
+
+}
+#span-11{
+    animation: span-11 2s ease-in-out 1s 1 none;
+
+}
+#span-12{
+    animation: span-12 2s ease-in-out 1s 1 none;
+
+}
+#span-13{
+
+    animation: span-13 2s ease-in-out 1s 1 none;
+}
+#span-14{
+    animation: span-14 2s ease-in-out 1s 1 none;
+
+}
+#span-15{
+    animation: span-15 2s ease-in-out 1s 1 none;
+
+}
+#span-16{
+
+    animation: span-16 2s ease-in-out 1s 1 none;
+}
+#span-17{
+    animation: span-17 3s ease-in-out 1s 1 none;
+}
+
+

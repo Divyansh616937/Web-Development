@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+li a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 1rem;
+    /* padding: 0rem 5rem; */
+    
+}
+nav{
+    background-color: #f0fffb;
+    height: 3rem;
+}
+/* #welcome-heading{
+    margin-top: 15vh;
+    text-align: center;
+    animation: wel 2s ease-out 0s 1 none;
+} */
+@keyframes wel{
+    from{
+        font-size: 7em;
+        color: rgb(119, 241, 125);
+
+    }
+    to{
+        font-size: 1em;
+        color: chocolate;
+    }
+}
+li a:hover{
+    font-size: 3em;
+    color: blue;
+}
+.wel-h{
+    font-size: xx-large;
+}
+#wel-p-h{
+    text-align: center;
+    margin-top: 15vh;
+}

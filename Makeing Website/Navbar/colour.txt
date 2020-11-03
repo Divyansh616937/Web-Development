@@ -1,0 +1,32 @@
+w = cornflowerblue
+e = aqua
+l = brown
+c = red
+0 = #e90505
+m = #0100ff
+e = #00ffe5
+
+T = #0efd76
+o = #f70000
+
+O = hsl(46deg 98% 50%)
+u = #c3ff03
+r = #0000004a
+
+    animation: span-1 2s ease-in-out 0s 1 none;
+    animation: span-2 2s ease-in-out 0s 1 none;
+    animation: span-3 2s ease-in-out 0s 1 none;
+    animation: span-4 2s ease-in-out 0s 1 none;
+    animation: span-5 2s ease-in-out 0s 1 none;
+    animation: span-6 2s ease-in-out 0s 1 none;
+    animation: span-7 2s ease-in-out 0s 1 none;
+    animation: span-8 2s ease-in-out 0s 1 none;
+    animation: span-9 2s ease-in-out 0s 1 none;
+    animation: span-10 2s ease-in-out 0s 1 none;
+    animation: span-11 2s ease-in-out 0s 1 none;
+    animation: span-12 2s ease-in-out 0s 1 none;
+    animation: span-13 2s ease-in-out 0s 1 none;
+    animation: span-14 2s ease-in-out 0s 1 none;
+    animation: span-15 2s ease-in-out 0s 1 none;
+    animation: span-16 2s ease-in-out 0s 1 none;
+    animation: span-17 2s ease-in-out 0s 1 none;

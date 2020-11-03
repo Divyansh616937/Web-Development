@@ -1,0 +1,1 @@
+console.log("this file in the static folder")

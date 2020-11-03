@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <H1>Jarvis</H1>
+    <p>
+        <h3>Required modules</h3>
+        <hr>
+        <li>You need to install the latest verion of pyton</li> <br>
+        <li>pyttsx3 module             #pip install pyttsx3</li> <br>
+        <li>speech_recognition module #pip install speechRecognition</li> <br>
+        <li>wikipedia module          #pip install wikipedia</li>
+    </p>
+    <hr>
+    <div>
+         <h4>pyttsx3 module</h4>
+         <li>it is used to convert text to speech</li>
+         <li>you can use this module by this</li>
+         <hr>
+         <h5><li>you can install this module by pip install pyttsx3</li></h5>
+         
+         <p>import pyttsx3 <br>
+            engine = pyttsx3.init() # object creation <br>
+            <br>
+            """ RATE"""<br>
+            rate = engine.getProperty('rate')   # getting details of current speaking rate <br>
+            print (rate)                        #printing current voice rate <br>
+            engine.setProperty('rate', 125)     # setting up new voice rate <br>
+            <br>
+            <br>
+            """VOLUME""" <br>
+            volume = engine.getProperty('volume')   #getting to know current volume level (min=0 and max=1) <br>
+            print (volume)                          #printing current volume level <br>
+            engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1 <br>
+            <br>
+            """VOICE""" <br>
+            voices = engine.getProperty('voices')       #getting details of current voice <br>
+            #engine.setProperty('voice', voices[0].id)  #changing index, changes voices. o for male <br>
+            engine.setProperty('voice', voices[1].id)   #changing index, changes voices. 1 for female <br>
+            <br>
+            engine.say("Hello World!") <br>
+            engine.say('My current speaking rate is ' + str(rate)) <br>
+            engine.runAndWait() <br>
+            engine.stop() <br>
+            <br>
+            """Saving Voice to a file""" <br>
+            # On linux make sure that 'espeak' and 'ffmpeg' are installed <br>
+            engine.save_to_file('Hello World', 'test.mp3') <br>
+            engine.runAndWait()</p>
+            <li>For more details about this module you can visite <h5>https://pypi.org/project/pyttsx3/</h5> </li>
+            <hr>
+    </div>
+    
+</body>
+</html>
