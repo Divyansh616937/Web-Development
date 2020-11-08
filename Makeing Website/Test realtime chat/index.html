@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="js/client.js">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./js/client.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Test chat Appalication</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="message left"></div>
-        <div class="message right"></div>
+        <div class="message left">Harry:How are you</div>
+        <div class="message right">Divyansh:Hello There</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinp" id="messageinp" placeholder="Type a message" >
+            <button class="btn" type="submit" value="submit">Send</button>
+        </form>
     </div>
 </body>
+
 </html>

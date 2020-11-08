@@ -1,0 +1,62 @@
+body {
+  /* background: url(../img/bg.jpg) center center fixed  ; */
+  /* background: url(https://source.unsplash.com/1600x900/?nature,water) center
+    center fixed ; */
+  background-size: cover;
+  color: black;
+}
+.container {
+  max-width: 60%;
+  background-color: transparent;
+  margin: auto;
+  height: 60vh;
+  border: 2px solid rebeccapurple;
+  overflow-y: auto;
+}
+.message {
+  /* background-color: yellow; */
+  width: 24%;
+}
+.left {
+  clear: both;
+  border-bottom: 3px solid red;
+  padding: 1% 2%;
+  text-align: center;
+  border-radius: 29px;
+  font-size: 18px;
+}
+
+.right {
+  border-bottom: 3px solid red;
+  padding: 1% 2%;
+  text-align: center;
+  border-radius: 29px;
+  float: right;
+  clear: both;
+  font-size: 18px;
+}
+.send input {
+  background: none;
+  outline: none;
+  border-radius: 29px;
+  text-align: center;
+  height: 31px;
+}
+.btn {
+  background: none;
+  outline: none;
+  border-radius: 37px;
+  border-top: white;
+  width: 100px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+#send{
+    text-align: center;
+}
+#messageinp{
+    width: 51%;
+}
+.send{
+    text-align: center;
+}
